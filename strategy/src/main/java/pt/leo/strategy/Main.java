@@ -1,4 +1,4 @@
-package pt.leo.designpatterns;
+package pt.leo.strategy;
 
 public class Main {
 
