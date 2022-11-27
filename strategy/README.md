@@ -1,4 +1,4 @@
-#Strategy Pattern
+# Strategy Pattern
 
 In the strategy pattern we use interfaces so that we can shape the behaviour of the code by switching the implementations as needed.
 There are several ways of doing this.
