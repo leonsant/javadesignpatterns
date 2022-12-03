@@ -1,0 +1,17 @@
+@startuml
+
+hide empty members
+
+class ChatRoom
+class ChatUser
+class ChatRoomNotifier
+interface Notifier
+interface Observer
+
+ChatUser --|> Observer
+Observer <-- ChatRoomNotifier
+
+ChatRoom --> Notifier
+Notifier <|-- ChatRoomNotifier
+
+@enduml
