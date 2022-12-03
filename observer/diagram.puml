@@ -1,0 +1,14 @@
+@startuml
+
+hide empty members
+
+interface Observable
+interface Observer
+class ChatRoom
+class ChatUser
+
+ChatUser -> ChatRoom
+Observer <-- ChatUser
+Observable <|-- ChatRoom
+
+@enduml
