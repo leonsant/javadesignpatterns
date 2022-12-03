@@ -1,0 +1,14 @@
+@startuml
+
+hide empty members
+
+Class Translator
+Interface Dictionary
+Class EnglishToFrenchDictionary
+Class EnglishToPortugueseDictionary
+
+Translator --> Dictionary
+Dictionary <|-- EnglishToFrenchDictionary
+Dictionary <|-- EnglishToPortugueseDictionary
+
+@enduml
