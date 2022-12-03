@@ -7,7 +7,7 @@ interface Observer
 class ChatRoom
 class ChatUser
 
-ChatUser -> ChatRoom
+ChatRoom <- ChatUser
 Observer <-- ChatUser
 Observable <|-- ChatRoom
 
