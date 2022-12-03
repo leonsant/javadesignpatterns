@@ -6,4 +6,4 @@ Instead of making the interested objects to frequently poll the object holding t
 
 This implementation violates the Single Responsibility Principle, in the sense that the ChatRoom should not need to care about notifying other objects and should focus only on chat-room-related aspects.
 
-![](diagram.png)
+![](diagram.png?)
