@@ -12,6 +12,6 @@ ChatUser --|> Observer
 Observer <-- ChatRoomNotifier
 
 ChatRoom --> Notifier
-Notifier <|-- ChatRoomNotifier
+Notifier <|.. ChatRoomNotifier
 
 @enduml

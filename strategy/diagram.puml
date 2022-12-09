@@ -8,7 +8,7 @@ Class EnglishToFrenchDictionary
 Class EnglishToPortugueseDictionary
 
 Translator --> Dictionary
-Dictionary <|-- EnglishToFrenchDictionary
-Dictionary <|-- EnglishToPortugueseDictionary
+Dictionary <|.. EnglishToFrenchDictionary
+Dictionary <|.. EnglishToPortugueseDictionary
 
 @enduml

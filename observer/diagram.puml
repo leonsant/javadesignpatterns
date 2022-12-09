@@ -9,6 +9,6 @@ class ChatUser
 
 ChatRoom <- ChatUser
 Observer <-- ChatUser
-Observable <|-- ChatRoom
+Observable <|.. ChatRoom
 
 @enduml
