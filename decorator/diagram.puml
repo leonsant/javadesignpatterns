@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide empty members
+
+class UserService
+class UserServiceV2
+
+UserService <- UserServiceV2
+UserService <|-- UserServiceV2
+
+@enduml
