@@ -1,3 +1,5 @@
+package pt.leo.decorator;
+
 public class Main {
     private static void showUser(UserService userService) {
         System.out.println(userService.getUserData());
