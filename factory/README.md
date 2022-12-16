@@ -1,13 +1,10 @@
 # Factory Pattern
 
-This pattern is used when there is a non-trivial logic behind the creation of instances of the objects needed for the program to work or if we do not know which instances to create.
+This pattern is used when there is a non-trivial logic behind the creation of instances of the objects needed for the program to work or if we do not know which instances to create. 
 
-We could, for instance, have the need to create random instances or to do round robin on the types of instances we create.
+In addition to picking up different classes for building instances, it can also be used to shape the same classes differently, based on their attributes. 
+Because of that, the factory pattern can help to prevent class explosion.
 
-Idéia para exemplo:
-Um jogo onde se sorteia a distribuição de N naves no ecran inicial. N é lido do .properties.
-Criar um RandomShipsFactory e um RoundRobinShipsFactory que estendem ShipFactory, que pode ser uma abstractclass.
-ShipFactory contém um método chamado "createShip".
+In the example source code, we have a BalancedShipFactory, which uses round-robin to pick up a product class, and a RandomShipFactory, that uses a randomized instance creation strategy.
 
-Ship é um objecto com as extensões:
-MilleniumFalcom, xWingsFighter e ImperialTieFighter.
+![](diagram.png?)
