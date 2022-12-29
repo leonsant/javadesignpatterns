@@ -3,7 +3,6 @@ package pt.leo.factory;
 import pt.leo.factory.creators.BalancedShipFactory;
 import pt.leo.factory.creators.RandomShipFactory;
 import pt.leo.factory.creators.ShipFactory;
-import pt.leo.factory.products.Ship;
 
 public class Main {
     static ShipFactory shipFactory;

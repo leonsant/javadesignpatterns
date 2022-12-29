@@ -9,7 +9,10 @@ class CargoBasic
 class CargoExcel
 class Ship
 
-Ship <- ShipFactory
+CargoBasic <- BalancedShipFactory
+CargoExcel <- BalancedShipFactory
+CargoBasic <- RandomShipFactory
+CargoExcel <- RandomShipFactory
 
 ShipFactory <|-- BalancedShipFactory
 ShipFactory <|-- RandomShipFactory
