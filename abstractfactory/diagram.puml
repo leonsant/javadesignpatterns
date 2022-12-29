@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class MenuFactory
+abstract class Main
+abstract class Starter
+abstract class Dessert
+class ChineseMenuFactory
+class FrenchMenuFactory
+class IndianMenuFactory
+
+ChineseMenuFactory -d-> ChickenWings
+ChineseMenuFactory -d-> Duck
+ChineseMenuFactory -d-> Fritters
+IndianMenuFactory -d-> Mushrooms
+IndianMenuFactory -d-> Chicken
+IndianMenuFactory -d-> Cake
+FrenchMenuFactory -d-> MushroomSoup
+FrenchMenuFactory -d-> Lamb
+FrenchMenuFactory -d-> Tart
+
+MenuFactory <|-- ChineseMenuFactory
+MenuFactory <|-- IndianMenuFactory
+MenuFactory <|-- FrenchMenuFactory
+
+Starter <|-u- ChickenWings #Orange
+Starter <|-u- Mushrooms #Orange
+Starter <|-u- MushroomSoup #Orange
+Main <|-u- Chicken #LightGreen
+Main <|-u- Duck #LightGreen
+Main <|-u- Lamb #LightGreen
+Dessert <|-u- Cake #LightBlue
+Dessert <|-u- Fritters #LightBlue
+Dessert <|-u- Tart #LightBlue
+
+Chicken -[hidden]> Lamb
+Starter -[hidden]> Dessert
+Main -[hidden]> Dessert
+
+@enduml
