@@ -1,0 +1,10 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide empty members
+
+class PrinterSpooler
+
+PrinterSpooler <- PrinterSpooler
+
+@enduml
