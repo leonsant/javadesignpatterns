@@ -1,0 +1,16 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide empty members
+
+interface UserReader
+class Main
+class DBReader
+class DBUserReader
+
+UserReader <|-- DBUserReader
+
+Main -> UserReader
+DBUserReader --> DBReader
+
+@enduml
