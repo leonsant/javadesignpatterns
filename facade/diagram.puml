@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Main
+class ProductInstaller
+class ProductConfiguration
+class Product
+class Requirement
+class OperatingSystem
+
+Main --> ProductInstaller
+ProductInstaller --> ProductConfiguration
+ProductInstaller --> Product
+ProductInstaller --> Requirement
+ProductInstaller --> OperatingSystem
+
+@enduml
