@@ -1,0 +1,13 @@
+@startuml
+
+hide empty members
+
+class WeatherDataFetcher
+class WeatherDataFetcherProxy
+interface DataFetcher
+
+DataFetcher <|-- WeatherDataFetcherProxy
+DataFetcher <|-- WeatherDataFetcher
+WeatherDataFetcherProxy -> WeatherDataFetcher
+
+@enduml

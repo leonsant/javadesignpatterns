@@ -1,0 +1,16 @@
+@startuml
+
+hide empty members
+
+class ImageLoader
+class ImageLoaderProxy
+class Image
+interface Loader
+
+Loader <|-- ImageLoaderProxy
+Loader <|-- ImageLoader
+ImageLoaderProxy -> ImageLoader
+ImageLoaderProxy --> Image
+ImageLoader --> Image
+
+@enduml
