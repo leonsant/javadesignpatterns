@@ -3,7 +3,27 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/decorator/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/decorator/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/observer/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/observer/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/observer/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/observer2/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/observer2/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/observer2/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/strategy/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/strategy/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/strategy/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/decorator/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/factory/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/factory/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/factory/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/abstractfactory/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/singleton/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/command/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/adapter/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/facade/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/proxy/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
