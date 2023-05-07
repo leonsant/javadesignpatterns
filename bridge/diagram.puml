@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+hide empty members
+
+interface Colour
+class Red
+class Green
+class Blue
+abstract class Shape
+class Circle
+class Square
+class Triangle
+
+Shape <|-- Circle
+Shape <|-- Square
+Shape <|-- Triangle
+Shape -> Colour
+
+Colour <|-- Red
+Colour <|-- Green
+Colour <|-- Blue
+
+@enduml

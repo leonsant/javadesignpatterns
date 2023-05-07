@@ -24,6 +24,7 @@
       <sourceFolder url="file://$MODULE_DIR$/adapter/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/facade/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/proxy/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bridge/src/main/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
