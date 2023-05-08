@@ -1,7 +1,7 @@
 package pt.leo.decorator;
 
 // This could be the first version of the service
-public class UserService {
+public class UserService implements DataFetcher {
     public String getUserData() {
         return """
                 {

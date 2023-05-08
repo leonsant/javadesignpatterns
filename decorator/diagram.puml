@@ -5,8 +5,10 @@ hide empty members
 
 class UserService
 class UserServiceV2
+interface DataFetcher
 
-UserService <- UserServiceV2
-UserService <|-- UserServiceV2
+DataFetcher <|-- UserService
+DataFetcher <|-- UserServiceV2
+DataFetcher <-- UserServiceV2
 
 @enduml
